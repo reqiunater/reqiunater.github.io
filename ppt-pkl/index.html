@@ -1,0 +1,260 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>PPT</title>
+
+    <link rel="stylesheet" href="./assets/css/main.css">
+
+    <script src="./assets/js/jquery-min.js"></script>
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Nunito+Sans:ital,opsz,wght@0,6..12,200..1000;1,6..12,200..1000&family=Press+Start+2P&display=swap"
+        rel="stylesheet">
+
+    <link rel="stylesheet" href="./assets/css/aos.css">
+    <script src="./assets/js/aos.js"></script>
+</head>
+
+<body>
+
+    <script>
+        console.log(window.innerHeight);
+        console.log(window.innerWidth);
+
+        function detectZoom() {
+            const zoom = window.devicePixelRatio || 1;
+            const adjustedWidth = window.innerWidth * zoom;
+            console.log("Adjusted width:", adjustedWidth);
+
+            if (adjustedWidth <= 1024) {
+                document.body.style.backgroundColor = "lightblue";
+            } else {
+                document.body.style.backgroundColor = "white";
+            }
+        }
+
+        window.addEventListener("resize", detectZoom);
+        detectZoom(); // Call initially
+    </script>
+    <div class="page-wrapper">
+        <div class="section-1">
+            <div class="top-title-1">
+                <p>Presentasi Praktik Kerja Lapangan</p>
+            </div>
+            <div class="img-title-1">
+                <div class="img-gc-wrapper">
+                    <img src="./assets/img/gc_dalam.png">
+                </div>
+                <p>Software House</p>
+            </div>
+            <div class="mid-title-1">
+                <p>CV Greatcode Sukses Bersama</p>
+                <p>Membantu Bisnis Anda Berkembang dengan Solusi IT yang Terintegritas</p>
+            </div>
+            <div class="bottom-btn">
+                <a id="go-section-2" href="#section-2">Get Started</a>
+            </div>
+        </div>
+        <div class="section-2" id="section-2">
+            <div class="title-wrapper-2">
+                <p>Profil perusahaan
+                </p>
+            </div>
+
+            <div class="mid-title-2">
+                <p>Siapa Greatcode?</p>
+                <p>CV. Greatcode Sukses Bersama adalah Software House yang berdiri sejak 2018, berfokus pada
+                    pengembangan solusi web dan mobile yang inovatif. Dengan memadukan teknologi modern, desain kreatif,
+                    dan perhatian pada keamanan, Greatcode menghadirkan layanan unggulan dalam pembuatan aplikasi dan
+                    situs web. Sebagai mitra tepercaya, Greatcode berkomitmen memberikan solusi yang efisien, estetis,
+                    dan berkelanjutan untuk mendukung kebutuhan bisnis klien.</p>
+            </div>
+
+        </div>
+        <div class="section-3">
+            <div class="top-background">
+                <div class="left-background-3"></div>
+                <div class="mid-background-3">
+                    <div class="button-wrap">
+                        <p>Budaya Kerja</p>
+                    </div>
+                </div>
+                <div class="right-background-3"></div>
+            </div>
+            <div class="main-section-3">
+                <div class="content-3">
+                    <div class="top-title-3">
+                        <p>Cara Kami Bekerja Malas di Greatcode</p>
+                    </div>
+                    <div class="card-container-3">
+                        <div class="card-wrapper-3">
+                            <div class="top-card-3">
+                                <div class="card-3">
+                                    <div class="img-icon-3">
+                                        <img src="./assets/icon/lamp.png" alt="">
+                                    </div>
+                                    <div class="card-title">
+                                        <strong>
+                                            <p>Motivasi</p>
+                                        </strong>
+                                    </div>
+                                    <div class="card-desc">
+                                        <p>Kami percaya bahwa setiap individu memiliki potensi besar untuk terus belajar
+                                            dan berkembang.</p>
+                                    </div>
+                                </div>
+                                <div class="card-3">
+                                    <div class="img-icon-3">
+                                        <img src="./assets/icon/lamp.png" alt="">
+                                    </div>
+                                    <div class="card-title">
+                                        <strong>
+                                            <p>Adaptasi Terhadap Perubahan</p>
+                                        </strong>
+                                    </div>
+                                    <div class="card-desc">
+                                        <p>Kami selalu siap beradaptasi dengan perkembangan teknologi untuk menghadirkan
+                                            solusi inovatif dan efisien.</p>
+                                    </div>
+                                </div>
+                                <div class="card-3">
+                                    <div class="img-icon-3">
+                                        <img src="./assets/icon/lamp.png" alt="">
+                                    </div>
+                                    <div class="card-title">
+                                        <strong>
+                                            <p>Loyalitas pada Kualitas</p>
+                                        </strong>
+                                    </div>
+                                    <div class="card-desc">
+                                        <p>Kami berkomitmen memberikan hasil terbaik dengan perhatian pada detail,
+                                            pengujian, dan inovasi.</p>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="top-card-3">
+                                <div class="card-3">
+                                    <div class="img-icon-3">
+                                        <img src="./assets/icon/lamp.png" alt="">
+                                    </div>
+                                    <div class="card-title">
+                                        <strong>
+                                            <p>Aksi Nyata, Bukan Alasan</p>
+                                        </strong>
+                                    </div>
+                                    <div class="card-desc">
+                                        <p>Kami fokus pada solusi dan tindakan nyata. Budaya proaktif mendorong kami
+                                            menyelesaikan tantangan dengan cerdas.</p>
+                                    </div>
+                                </div>
+                                <div class="card-3">
+                                    <div class="img-icon-3">
+                                        <img src="./assets/icon/lamp.png" alt="">
+                                    </div>
+                                    <div class="card-title">
+                                        <strong>
+                                            <p>Sinergi dalam Tim</p>
+                                        </strong>
+                                    </div>
+                                    <div class="card-desc">
+                                        <p>Kerja sama adalah kunci. Kami membangun komunikasi terbuka, saling percaya,
+                                            dan mendukung untuk mencapai tujuan bersama. </p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="page-4-wrapper">
+                        <div class="top-title-4">
+                            <p>Kegiatan Yang Dilakukan</p>
+                        </div>
+
+                        <div class="content-wrapper-4">
+                            <div class="content-title-4">
+                                <p>Apa Saja Kegiatan yang Kami lakukan?</p>
+                            </div>
+                            <div class="content-table-4">
+                                <table class="table-4">
+                                    <thead>
+                                        <tr>
+                                            <th width="33.3%">Kegiatan</th>
+                                            <th width="33.3%">Deskripsi Kegiatan</th>
+                                            <th width="33.3%">Waktu</th>
+                                        </tr>
+                                    </thead>
+                                    <tbody>
+                                        <tr>
+                                            <td>Masuk</td>
+                                            <td>Masuk Kantor</td>
+                                            <td>08:00</td>
+                                        </tr>
+                                        <tr>
+                                            <td>Berdoa</td>
+                                            <td>Berdoa Sebelum Kegiatan Dimulai</td>
+                                            <td>08:15</td>
+                                        </tr>
+                                        <tr>
+                                            <td>Bekerja</td>
+                                            <td>Mengerjakan Tugas Tugas Yang Ada</td>
+                                            <td>08:17 - 12:00</td>
+                                        </tr>
+                                        <tr>
+                                            <td>Istirahat</td>
+                                            <td>Sholat Dzuhur dan Makan Siang</td>
+                                            <td>12:00 - 13:00</td>
+                                        </tr>
+                                        <tr>
+                                            <td>Bekerja</td>
+                                            <td>Kembali Mengerjakan Tugas Tugas</td>
+                                            <td>13:00 - 15:45</td>
+                                        </tr>
+                                        <tr>
+                                            <td>Berdoa</td>
+                                            <td>Sholat Ashar dan Berdoa Persiapan Pulang</td>
+                                            <td>15:50 - 16:00</td>
+                                        </tr>
+                                        <tr>
+                                            <td>Pulang</td>
+                                            <td>Semua Karyawan Pulang ke Rumah Masing - Masing</td>
+                                            <td>16:00</td>
+                                        </tr>
+                                    </tbody>
+                                </table>
+                            </div>
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <script>
+        AOS.init();
+
+        $(document).ready(function (e) {
+            $('#go-section-2').on('click', function (e) {
+                e.preventDefault();
+
+                const target = $($(this).attr('href'));
+
+                if (target.length) {
+                    $("html, body").animate(
+                        {
+                            scrollTop: target.offset().top,
+                        },
+                        1000
+                    );
+                }
+            })
+        })
+    </script>
+</body>
+
+</html>
